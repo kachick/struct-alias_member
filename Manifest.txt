@@ -1,0 +1,8 @@
+README.rdoc
+LICENSE
+History.rdoc
+Manifest.txt
+Rakefile
+lib/struct/alias_member.rb
+dspec/basic.rb
+example/basic.rb
