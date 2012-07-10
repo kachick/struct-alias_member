@@ -19,6 +19,10 @@ Declare do
       TRUTHY instance.member? :c3
       FALTHY instance.member? :d4
       
+      CATCH KeyError do
+        instance[:e5]
+      end
+      
       The instance.values do
         is [nil, nil]
       end

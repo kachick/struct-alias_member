@@ -13,7 +13,7 @@ class Struct; module Alias_Member
     # @return [Symbol]
     def autonym(name)
       name = name.to_sym
-      members.include?(name) ? name : (@aliases[name] || raise(KeyError))
+      members.include?(name) ? name : @aliases.fetch(name)
     end
     
     # @param [Symbol, String] aliased
