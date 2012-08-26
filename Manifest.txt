@@ -4,6 +4,7 @@ History.rdoc
 Manifest.txt
 Rakefile
 lib/struct/alias_member.rb
+lib/struct/alias_member/version.rb
 lib/struct/alias_member/classmethods.rb
 lib/struct/alias_member/instancemethods.rb
 lib/struct/alias_member/core_ext.rb
