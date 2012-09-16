@@ -1,10 +1,13 @@
 struct-alias_member
 ====================
 
-Standard Struct will be able to member aliasing.
+Description
+------------
+
+Struct will be able to alias the members name.
 
 Usage
------
+------
 
 ### Overview
 
@@ -35,6 +38,11 @@ Install
 ```bash
 $ gem install struct-alias_member
 ```
+
+Build Status
+------------
+
+[![Build Status](https://secure.travis-ci.org/kachick/struct-for_pairs.png)](http://travis-ci.org/kachick/struct-for_pairs)
 
 Link
 ----

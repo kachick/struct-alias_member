@@ -2,5 +2,6 @@
 
 require_relative 'alias_member/version'
 require_relative 'alias_member/classmethods'
-require_relative 'alias_member/instancemethods'
+require_relative 'alias_member/subclassclassmethods'
+require_relative 'alias_member/subclassinstancemethods'
 require_relative 'alias_member/core_ext'

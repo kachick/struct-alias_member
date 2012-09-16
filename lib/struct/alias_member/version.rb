@@ -2,7 +2,7 @@ class Struct
   
   module Alias_Member
     
-    VERSION = '0.0.2.a'.freeze
+    VERSION = '0.0.2'.freeze
 
   end
 

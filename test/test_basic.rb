@@ -39,6 +39,18 @@ The Struct.new(:a1, :b2){alias_member :c3, :b2} do |klass|
       same instance.a1
     end
     
+    The (instance[0]) do
+      same instance.a1
+    end
+
+    The (instance[1]) do
+      same instance.b2
+    end
+
+    CATCH IndexError do
+      instance[2]
+    end
+
     The instance.values do
       is ['123', 'OBJ']
     end
