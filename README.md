@@ -42,7 +42,7 @@ $ gem install struct-alias_member
 Build Status
 ------------
 
-[![Build Status](https://secure.travis-ci.org/kachick/struct-for_pairs.png)](http://travis-ci.org/kachick/struct-for_pairs)
+[![Build Status](https://secure.travis-ci.org/kachick/struct-alias_member.png)](http://travis-ci.org/kachick/struct-alias_member)
 
 Link
 ----
