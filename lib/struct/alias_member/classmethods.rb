@@ -1,35 +1,34 @@
-# Copyright (C) 2012 Kenichi Kamiya
-
 class Struct; module Alias_Member
 
   module ClassMethods
   
-    # @return [Array<Symbol>]
+    # @return [Hash] aliasA => autonymX, aliasB => autonymY
     def aliases
       @aliases.dup
     end
     
-    # @param [Symbol, String] name
+    # @param [Symbol, String, #to_sym] name
     # @return [Symbol]
     def autonym(name)
       name = name.to_sym
+
       members.include?(name) ? name : @aliases.fetch(name)
     end
     
-    # @param [Symbol, String] aliased
-    # @param [Symbol, String] source
+    # @param [Symbol, String, #to_sym] aliased
+    # @param [Symbol, String, #to_sym] autonym
     # @return [Module]
-    def alias_member(aliased, source)
+    def alias_member(aliased, autonym)
       class_eval do
-        aliased, source = aliased.to_sym, source.to_sym
+        aliased, autonym = aliased.to_sym, autonym.to_sym
         if @aliases.has_key?(aliased) or members.include?(aliased)
           raise Alias_Member::ArleadyDefinedError
         end
         
-        @aliases[aliased] = source
+        @aliases[aliased] = autonym
       
-        alias_method aliased, source
-        alias_method :"#{aliased}=", :"#{source}="
+        alias_method aliased, autonym
+        alias_method :"#{aliased}=", :"#{autonym}="
       end
     end
   

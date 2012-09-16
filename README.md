@@ -1,5 +1,5 @@
-Struct.#alias_member
-===================
+struct-alias_member
+====================
 
 Standard Struct will be able to member aliasing.
 
@@ -27,31 +27,27 @@ ac.aliases        #=> {:money=>:balance}
 Requirements
 ------------
 
-* Ruby 1.9.2 or later
-
-  [MRI/YARV, Rubinius, JRuby](http://travis-ci.org/#!/kachick/struct-alias_member)
+* Ruby - [1.9.2 or later](http://travis-ci.org/#!/kachick/struct-alias_member)
 
 Install
 -------
 
-```shell
+```bash
 $ gem install struct-alias_member
 ```
 
 Link
 ----
 
-* code: https://github.com/kachick/struct-alias_member
-* issues: https://github.com/kachick/struct-alias_member/issues
-* CI: http://travis-ci.org/#!/kachick/struct-alias_member
-* gem: https://rubygems.org/gems/struct-alias_member
-* gem+: http://metagem.info/gems/struct-alias_member
+* [code](https://github.com/kachick/struct-alias_member)
+* [API](http://kachick.github.com/struct-alias_member/yard/frames.html)
+* [issues](https://github.com/kachick/struct-alias_member/issues)
+* [CI](http://travis-ci.org/#!/kachick/struct-alias_member)
+* [gem](https://rubygems.org/gems/struct-alias_member)
 
 License
 -------
 
-The MIT X License
-
-Copyright (c) 2012 Kenichi Kamiya
-
+The MIT X11 License  
+Copyright (c) 2012 Kenichi Kamiya  
 See the file LICENSE for further details.
