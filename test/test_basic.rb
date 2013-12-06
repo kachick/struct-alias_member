@@ -26,7 +26,7 @@ The Struct.new(:a1, :b2){alias_member :c3, :b2} do |klass|
       is [nil, nil]
     end
     
-    The (instance[:c3] = 'OBJ') do
+    The(instance[:c3] = 'OBJ') do
       same instance[:b2]
       same instance.b2
       same instance[:c3]
@@ -37,15 +37,15 @@ The Struct.new(:a1, :b2){alias_member :c3, :b2} do |klass|
       is [nil, 'OBJ']
     end
     
-    The (instance[:a1] = '123') do
+    The(instance[:a1] = '123') do
       same instance.a1
     end
     
-    The (instance[0]) do
+    The instance[0] do
       same instance.a1
     end
 
-    The (instance[1]) do
+    The instance[1] do
       same instance.b2
     end
 
