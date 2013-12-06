@@ -1,6 +1,9 @@
 struct-alias_member
 ====================
 
+[![Build Status](https://secure.travis-ci.org/kachick/struct-alias_member.png)](http://travis-ci.org/kachick/struct-alias_member)
+[![Gem Version](https://badge.fury.io/rb/struct-alias_member.png)](http://badge.fury.io/rb/struct-alias_member)
+
 Description
 ------------
 
@@ -39,14 +42,10 @@ Install
 $ gem install struct-alias_member
 ```
 
-Build Status
-------------
-
-[![Build Status](https://secure.travis-ci.org/kachick/struct-alias_member.png)](http://travis-ci.org/kachick/struct-alias_member)
-
 Link
 ----
 
+* [Home](http://kachick.github.com/struct-alias_member)
 * [code](https://github.com/kachick/struct-alias_member)
 * [API](http://kachick.github.com/struct-alias_member/yard/frames.html)
 * [issues](https://github.com/kachick/struct-alias_member/issues)
