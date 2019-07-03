@@ -13,11 +13,10 @@ Gem::Specification.new do |gem|
   gem.name          = 'struct-alias_member'
   gem.version       = Struct::Alias_Member::VERSION.dup
 
-  gem.required_ruby_version = '>= 1.9.3'
   gem.add_development_dependency 'test-declare', '~> 0.0.3'
-  gem.add_development_dependency 'yard', '>= 0.8.7.3', '< 0.9'
+  gem.add_development_dependency 'yard', '>= 0.9.20', '< 2'
   gem.add_development_dependency 'rake', '>= 10', '< 20'
-  gem.add_development_dependency 'bundler', '>= 1.3.5', '< 2'
+  gem.add_development_dependency 'bundler', '>= 2', '< 3'
 
   if RUBY_ENGINE == 'rbx'
     gem.add_dependency 'rubysl', '~> 2.0'
