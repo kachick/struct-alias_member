@@ -33,7 +33,7 @@ ac.aliases        #=> {:money=>:balance}
 Requirements
 ------------
 
-* [Ruby 1.9.3 or later](http://travis-ci.org/#!/kachick/struct-alias_member)
+* [Ruby 2.5 or later](http://travis-ci.org/#!/kachick/struct-alias_member)
 
 Install
 -------
