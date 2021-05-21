@@ -1,8 +1,9 @@
 struct-alias_member
 ====================
 
-[![Build Status](https://secure.travis-ci.org/kachick/struct-alias_member.png)](http://travis-ci.org/kachick/struct-alias_member)
-[![Gem Version](https://badge.fury.io/rb/struct-alias_member.png)](http://badge.fury.io/rb/struct-alias_member)
+* ***This repository is archived***
+* ***No longer maintained***
+* ***All versions have been yanked from https://rubygems.org/ for releasing valuable namespace for others***
 
 Description
 ------------
@@ -33,24 +34,7 @@ ac.aliases        #=> {:money=>:balance}
 Requirements
 ------------
 
-* [Ruby 2.5 or later](http://travis-ci.org/#!/kachick/struct-alias_member)
-
-Install
--------
-
-```bash
-$ gem install struct-alias_member
-```
-
-Link
-----
-
-* [Home](http://kachick.github.com/struct-alias_member)
-* [code](https://github.com/kachick/struct-alias_member)
-* [API](http://kachick.github.com/struct-alias_member/yard/frames.html)
-* [issues](https://github.com/kachick/struct-alias_member/issues)
-* [CI](http://travis-ci.org/#!/kachick/struct-alias_member)
-* [gem](https://rubygems.org/gems/struct-alias_member)
+* Ruby 2.5 or later
 
 License
 -------
